@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--TITULO-->
+    <title>Alô Microfone 1.0 - Bolão UCL21</title>
+</head>
+<body>
+  <div class='container'>
+    <div class="text-center">
+        <img src="img/logo.png" height="400" class="rounded">
+      </div>
+    <form id="form_login" action="index.php" method="POST">
+        <div class="mb-3">
+          <label for="inputWpp" class="form-label">WhatsApp</label>
+          <input type="number" class="form-control" id="inputWpp" name="whats" placeholder="DDD+número sem espaço">
+        </div>
+        <div class="mb-3">
+          <label for="inputPassword" class="form-label">Senha</label>
+          <input type="password" class="form-control" id="inputPassword" name="senha">
+        </div>
+        <button type="submit" class="btn btn-primary">Entrar</button>
+      </form>
+    </div>
+
+<!--SCRIPTS-->
+    <script 
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" 
+            integrity="sha384-SR1sTeGFxGZr8AJF3P61D23wVzd1bxY7SFbPPENzswTNFaQU1RDvt3wT4gWFG"  
+            crossorigin="anonymous">    
+        </script>
+        <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
